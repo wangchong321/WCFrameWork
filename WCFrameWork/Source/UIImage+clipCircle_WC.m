@@ -1,11 +1,3 @@
-//
-//  UIImage+clipCircle_WC.m
-//  2
-//
-//  Created by 王充 on 15/4/3.
-//  Copyright (c) 2015年 王充. All rights reserved.
-//
-
 #import "UIImage+clipCircle_WC.h"
 
 @implementation UIImage (clipCircle_WC)

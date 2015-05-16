@@ -1,6 +1,4 @@
-//
-//  UIImage+Screen_capture_WC.h
-//  HM06截屏
+
 //
 //  Created by 王充 on 15/4/3.
 //  Copyright (c) 2015年 heima. All rights reserved.

@@ -1,10 +1,3 @@
-//
-//  UILabel+FlickerNumber.m
-//  FlickerNumber
-//
-//  Created by Diaoshu on 15-2-1.
-//  Copyright (c) 2015年 DDKit. All rights reserved.
-//
 
 #import "UILabel+FlickerNumber.h"
 #import <objc/runtime.h>
