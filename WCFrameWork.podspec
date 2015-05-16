@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WCFrameWork"
-  s.version      = “1.0.0” -m “Tag release 1.0.0”
+  s.version      = "1.0.0"
   s.summary      = "WC private framework"
 
   s.description  = <<-DESC
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT (example)"
-  # s.license      = { “Chong Wang” => “912321420@qq.com” }
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Wang Chong" => "912321420@qq.com" }
+  s.author             = { "Wang Chong" => "" }
   # Or just: s.author    = "Wang Chong"
   # s.authors            = { "Wang Chong" => "" }
   # s.social_media_url   = "http://twitter.com/Wang Chong"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wangchong321/WCFrameWork.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/wangchong321/WCFrameWork.git", :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -128,7 +128,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+  # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
