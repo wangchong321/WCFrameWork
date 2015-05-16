@@ -8,12 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for WCFrameWork.
-FOUNDATION_EXPORT double WCFrameWorkVersionNumber;
+#ifndef _AFNETWORKING_
+#define _AFNETWORKING_
 
-//! Project version string for WCFrameWork.
-FOUNDATION_EXPORT const unsigned char WCFrameWorkVersionString[];
+#import "NSString+Path"
+#import "UIImage+clipCircle_WC"
+#import "UIImage+Screen_capture_WC"
+#import "UIImage+tiaowenBg_WC"
+#import "UIImage+Water_WC"
+#import "UILabel+FlickerNumber_WC"
 
-// In this header, you should import all the public headers of your framework using statements like #import <WCFrameWork/PublicHeader.h>
+#if ( ( defined(__MAC_OS_X_VERSION_MAX_ALLOWED) && __MAC_OS_X_VERSION_MAX_ALLOWED >= 1090) || \
+( defined(__IPHONE_OS_VERSION_MAX_ALLOWED) && __IPHONE_OS_VERSION_MAX_ALLOWED >= 70000 ) )
 
+#endif
 
+#endif /* _AFNETWORKING_ */

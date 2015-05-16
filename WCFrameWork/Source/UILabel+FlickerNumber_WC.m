@@ -1,5 +1,5 @@
 
-#import "UILabel+FlickerNumber.h"
+#import "UILabel+FlickerNumber_WC.h"
 #import <objc/runtime.h>
 
 #define RangeIntegerKey @"RangeKey"

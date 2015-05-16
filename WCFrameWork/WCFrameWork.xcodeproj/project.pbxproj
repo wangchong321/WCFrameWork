@@ -22,8 +22,8 @@
 		04EE1EE61B0764D500CE474C /* UIImage+tiaowenBg_WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1ED81B0764D500CE474C /* UIImage+tiaowenBg_WC.m */; };
 		04EE1EE71B0764D500CE474C /* UIImage+Water_WC.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE1ED91B0764D500CE474C /* UIImage+Water_WC.h */; };
 		04EE1EE81B0764D500CE474C /* UIImage+Water_WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1EDA1B0764D500CE474C /* UIImage+Water_WC.m */; };
-		04EE1EE91B0764D500CE474C /* UILabel+FlickerNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE1EDB1B0764D500CE474C /* UILabel+FlickerNumber.h */; };
-		04EE1EEA1B0764D500CE474C /* UILabel+FlickerNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1EDC1B0764D500CE474C /* UILabel+FlickerNumber.m */; };
+		04EE1EE91B0764D500CE474C /* UILabel+FlickerNumber_WC.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE1EDB1B0764D500CE474C /* UILabel+FlickerNumber_WC.h */; };
+		04EE1EEA1B0764D500CE474C /* UILabel+FlickerNumber_WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1EDC1B0764D500CE474C /* UILabel+FlickerNumber_WC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		04EE1ED81B0764D500CE474C /* UIImage+tiaowenBg_WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+tiaowenBg_WC.m"; sourceTree = "<group>"; };
 		04EE1ED91B0764D500CE474C /* UIImage+Water_WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Water_WC.h"; sourceTree = "<group>"; };
 		04EE1EDA1B0764D500CE474C /* UIImage+Water_WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Water_WC.m"; sourceTree = "<group>"; };
-		04EE1EDB1B0764D500CE474C /* UILabel+FlickerNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FlickerNumber.h"; sourceTree = "<group>"; };
-		04EE1EDC1B0764D500CE474C /* UILabel+FlickerNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FlickerNumber.m"; sourceTree = "<group>"; };
+		04EE1EDB1B0764D500CE474C /* UILabel+FlickerNumber_WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FlickerNumber_WC.h"; sourceTree = "<group>"; };
+		04EE1EDC1B0764D500CE474C /* UILabel+FlickerNumber_WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FlickerNumber_WC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +146,8 @@
 				04EE1ED81B0764D500CE474C /* UIImage+tiaowenBg_WC.m */,
 				04EE1ED91B0764D500CE474C /* UIImage+Water_WC.h */,
 				04EE1EDA1B0764D500CE474C /* UIImage+Water_WC.m */,
-				04EE1EDB1B0764D500CE474C /* UILabel+FlickerNumber.h */,
-				04EE1EDC1B0764D500CE474C /* UILabel+FlickerNumber.m */,
+				04EE1EDB1B0764D500CE474C /* UILabel+FlickerNumber_WC.h */,
+				04EE1EDC1B0764D500CE474C /* UILabel+FlickerNumber_WC.m */,
 			);
 			path = Source;
 			sourceTree = SOURCE_ROOT;
@@ -166,7 +166,7 @@
 				04EE1EB81B07647200CE474C /* WCFrameWork.h in Headers */,
 				04EE1EE31B0764D500CE474C /* UIImage+Screen_capture_WC.h in Headers */,
 				04EE1EE51B0764D500CE474C /* UIImage+tiaowenBg_WC.h in Headers */,
-				04EE1EE91B0764D500CE474C /* UILabel+FlickerNumber.h in Headers */,
+				04EE1EE91B0764D500CE474C /* UILabel+FlickerNumber_WC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +271,7 @@
 				04EE1EDE1B0764D500CE474C /* NSArray+Log.m in Sources */,
 				04EE1EE41B0764D500CE474C /* UIImage+Screen_capture_WC.m in Sources */,
 				04EE1EE61B0764D500CE474C /* UIImage+tiaowenBg_WC.m in Sources */,
-				04EE1EEA1B0764D500CE474C /* UILabel+FlickerNumber.m in Sources */,
+				04EE1EEA1B0764D500CE474C /* UILabel+FlickerNumber_WC.m in Sources */,
 				04EE1EE21B0764D500CE474C /* UIImage+clipCircle_WC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +462,7 @@
 				04EE1ECA1B07647200CE474C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EE1ECB1B07647200CE474C /* Build configuration list for PBXNativeTarget "WCFrameWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				04EE1ECD1B07647200CE474C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

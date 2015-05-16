@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WCFrameWork"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "WC private framework"
   s.homepage     = "https://github.com/wangchong321/WCFrameWork"
   s.license      = "MIT"
