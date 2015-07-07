@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045FE80E1B4BAA9300B00315 /* KILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 045FE80C1B4BAA9300B00315 /* KILabel.h */; };
+		045FE80F1B4BAA9300B00315 /* KILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 045FE80D1B4BAA9300B00315 /* KILabel.m */; };
 		04EE1EB81B07647200CE474C /* WCFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EE1EB71B07647200CE474C /* WCFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04EE1EBE1B07647200CE474C /* WCFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EE1EB21B07647200CE474C /* WCFrameWork.framework */; };
 		04EE1EC51B07647200CE474C /* WCFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1EC41B07647200CE474C /* WCFrameWorkTests.m */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045FE80C1B4BAA9300B00315 /* KILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KILabel.h; sourceTree = "<group>"; };
+		045FE80D1B4BAA9300B00315 /* KILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KILabel.m; sourceTree = "<group>"; };
 		04EE1EB21B07647200CE474C /* WCFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE1EB61B07647200CE474C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04EE1EB71B07647200CE474C /* WCFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCFrameWork.h; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 		04EE1ECE1B0764A800CE474C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				045FE80C1B4BAA9300B00315 /* KILabel.h */,
+				045FE80D1B4BAA9300B00315 /* KILabel.m */,
 				04EE1ECF1B0764D500CE474C /* NSArray+Log.h */,
 				04EE1ED01B0764D500CE474C /* NSArray+Log.m */,
 				04EE1ED11B0764D500CE474C /* NSString+Path.h */,
@@ -159,6 +165,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FE80E1B4BAA9300B00315 /* KILabel.h in Headers */,
 				04EE1EE11B0764D500CE474C /* UIImage+clipCircle_WC.h in Headers */,
 				04EE1EE71B0764D500CE474C /* UIImage+Water_WC.h in Headers */,
 				04EE1EDD1B0764D500CE474C /* NSArray+Log.h in Headers */,
@@ -266,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045FE80F1B4BAA9300B00315 /* KILabel.m in Sources */,
 				04EE1EE01B0764D500CE474C /* NSString+Path.m in Sources */,
 				04EE1EE81B0764D500CE474C /* UIImage+Water_WC.m in Sources */,
 				04EE1EDE1B0764D500CE474C /* NSArray+Log.m in Sources */,
